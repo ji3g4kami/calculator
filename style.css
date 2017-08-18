@@ -38,7 +38,9 @@ input[type=text] {
     border-radius: 5px;
     border-style: outset;
     border: solid 1px #707070;
-    box-shadow: 2px 2px #737373;
+    -moz-box-shadow: 2px 2px #737373;
+    -webkit-box-shadow: 2px 2px #737373;
+    -ms-box-shadow: 2px 2px #737373;
     transition: border 0.3s;
     padding: 1%;
 }
